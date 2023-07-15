@@ -1,0 +1,19 @@
+{% assign variable = 0 %}
+{% decrement variable %}
+{{ variable }}
+{% decrement variable %}
+{{ variable }}
+{% decrement variable %}
+{{ variable }}
+{% schema %}
+  {
+    "name": "Test",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Test",
+        "category": "text"
+      }
+    ]
+  }
+{% endschema %}
